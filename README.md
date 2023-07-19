@@ -49,6 +49,8 @@ NOTE: If the predict.py or train.py doesn't work, follow the instructions to run
 
 ### Prediction
 
+Download and place the weights from [here](https://drive.google.com/drive/folders/1aZSDp9loAU5viqccP0RRmyQKSCWOIi2G?usp=drive_link) under necessary folders: 'pedestrian_detection/pretrained_weights/pretrained.pt', 'exp_result/PETA/PETA/img_model/ckpt_max.pth'.
+
 To get the prediction for any video or image, simply run the `Predict.py` file  and follow the instructions mentioned in it. It is recommended to use GPU for faster prediction.
 
 If you want to make prediction for a video,follow the below metioned steps
