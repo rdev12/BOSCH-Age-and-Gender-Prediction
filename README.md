@@ -14,6 +14,8 @@ Download the repository folder `Age_and_Gender_Prediction` containing the code
 cd Age_and_Gender_Prediction
 ```
 
+Download and place the weights from the GDrive [here](https://drive.google.com/drive/folders/1aZSDp9loAU5viqccP0RRmyQKSCWOIi2G?usp=drive_link) place the weights in the same place as the original folders ('pedestrian_detection/pretrained_weights/pretrained.pt', 'exp_result/PETA/PETA/img_model/ckpt_max.pth',...)
+
 ## Installing the dependencies
 
 Install all the dependencies required for our code by running the following command
@@ -48,8 +50,6 @@ pip install -q --upgrade opencv-contrib-python
 NOTE: If the predict.py or train.py doesn't work, follow the instructions to run it on Google Colab. We have trained and tested on Colab. It is highly recommended use Google Colab directly for prediction or training.
 
 ### Prediction
-
-Download and place the weights from [here](https://drive.google.com/drive/folders/1aZSDp9loAU5viqccP0RRmyQKSCWOIi2G?usp=drive_link) under necessary folders: 'pedestrian_detection/pretrained_weights/pretrained.pt', 'exp_result/PETA/PETA/img_model/ckpt_max.pth'.
 
 To get the prediction for any video or image, simply run the `Predict.py` file  and follow the instructions mentioned in it. It is recommended to use GPU for faster prediction.
 
